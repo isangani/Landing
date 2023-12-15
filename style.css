@@ -1,0 +1,476 @@
+.navbar-collapse {
+    flex-grow:initial;
+}
+.nav-link,.purchase,.font14,.purchasebtn{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+body{
+    font-family: Roboto;
+}
+.navlink{
+    color: #505F98;
+    border-bottom: 0.063rem transparent;
+}
+.navlink:hover{
+    border-bottom: 0.063rem solid #505F98;
+    color: #505F98;
+}
+.navbar-nav {
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: #929ECC;
+}
+.navbar-brand{
+    font-size: 1.625rem;
+    font-weight: 900;
+    line-height: 2.375rem;
+}
+.purchase,.purchasebtn,.font12,.buynow,.footer-purchase,.font50,.font16,.font36{
+font-weight: 500;
+}
+.purchase{ 
+    padding: 0.05rem 1.6rem;
+}
+.purchasebtn{
+    padding: 0.02rem 2.8rem; 
+    margin-top: 0.4rem;
+}
+.buynow{
+    width: 10rem;
+    height: 1.125rem;
+    top: 0.25rem;
+    padding: 0rem;
+}
+.purchase,.purchasebtn,.buynow,.footer-purchase,.purchasebtn:hover,.buynow:hover,.euro-buttons:hover,.purchase:hover,.footer-purchase:hover{
+    color: #FFFFFF;
+    background-color: #111B47;
+}
+.font12,.buynow,.footer-purchase{
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+}
+.footer-purchase{
+    padding: 0.15rem 1rem;
+}
+.backimg{
+    background: url(images/Path.png);
+    background-position: top right;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 135vh;
+}
+.navbar-toggler {
+    padding: 0rem;
+    border:0;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+.font50{
+    font-size: 3.125rem;
+    line-height: 4.125rem;
+}
+.font18{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: #505F98;
+}
+.font16{
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.footer-navlink,.footer-navlink:hover{
+    color:#929ECC;
+}
+#darkblue,.font36{
+    color: #091133;
+}
+#purple{
+    color: #6F7CB2;
+}
+#blue{
+    color: #222F65;
+}
+#gray{
+    color: #5D6970;
+}
+.navbar-brand:hover,#dark-purple,.navbar-brand{
+    color: #37447E;
+}
+#lightgray{
+    color: #939EA4;
+}
+.mt0-5{
+    margin-top: 0.5rem;
+}
+.mt2-5,.mrtop2-5,.purchase{
+    margin-top: 2.5rem;
+}
+.mt1-5{
+    margin-top: 1.5rem;
+}
+.img-1{
+    height: 41.313rem;
+    width:  68.75rem;
+}
+.eurosection{
+    padding:6rem 0rem 0rem 6.3rem;
+}
+.euro-buttons{
+    text-align: center;
+    padding: 0rem;
+    color: #111B47;
+    border: 0.063rem solid #111B47;
+    width: 9.938rem;
+    height: 1.625rem;
+    top: 0.313rem;
+    margin-top: 4rem;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0rem;
+}
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.mleft1-5{
+    margin-left: 1.5rem;
+}
+.btn{
+    border-radius: 0rem;
+}
+.font36{
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+.padding100{
+    padding: 6.25rem 0rem;
+}
+.img-2{
+    height: 2.25rem;
+    width: 2.25rem;
+}
+.card {
+     --bs-card-spacer-x: 0rem;
+     --bs-card-spacer-y: 0rem;
+     --bs-card-border-width: 0rem;
+     margin-top: 1rem;
+     margin-right: 0.5rem;
+}
+.card-title{
+    margin-bottom: 0.2rem;
+    margin-top: 0.3rem;
+}
+.backpurple{
+    padding: 12.5rem 12.5rem 9.375em 12.5rem;
+    clip-path: polygon(50% 8%, 75% 7%, 100% 2%, 100% 100%, 80% 100%, 50% 100%, 19% 100%, 0% 100%, 0 2%, 25% 6%);
+    background-color: rgba(231, 236, 255, 0.5);
+}
+.footer{
+    background-color: #E7ECFF;
+    padding:3.125rem 6.25rem 1.25rem 6.25rem ;
+}
+hr{
+    height: 0.063rem;
+    margin-top: 2rem;
+}
+.footer-navlink{
+    padding-right: 3.125rem;
+}
+.icons{
+    margin-left: 1.563rem;
+}
+@media (min-width: 62rem){
+    .navbar-expand-lg .navbar-nav .navlink{
+        padding-right:0.625rem;
+        padding-left: 0.625rem;
+        margin-right: 1.875rem;
+    }
+}
+@media (min-width:12.5rem) and (max-width:62rem) {
+    #navbarsExample05{
+        background-color: rgb(192, 207, 223);
+        height: 57vh;
+        padding: 1.5rem 0rem;
+        width: 100%;
+        position: absolute;
+    }
+    .navlink {
+        padding: 1rem 0rem;
+    }
+    .eurosection{
+        padding:0.625rem;
+    }  
+    .mleft1-5{
+        margin-left: 0.5rem;
+    }
+    .font18{
+        font-size: 0.938rem;
+        line-height: 1.563rem;
+    }
+    .navbar {
+        --bs-navbar-padding-y: 0rem;
+    }
+    p{
+        margin-bottom: 0.5rem;
+    }
+    .card {
+        margin-top: 0.5rem;
+   }
+}
+@media screen and (min-width:12rem) and (max-width:36rem) {
+    .card {
+        margin-right: 0rem;
+   }
+}
+@media screen and (min-width:12.5rem) and (max-width:48rem) {
+    .navbar-brand{
+        font-size: 1.375rem;
+        font-weight: 730;
+        line-height: 2.063rem;
+    }
+    .buynow{
+        width: 6.875rem;
+    }
+    .euro-buttons{
+        margin-top: 0.625rem;
+        width:7.438rem;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+    }
+    .font50{
+        font-size: 1.5rem;
+        line-height: 2.063rem;
+    }/* .img-1{height: 15.625rem; width:  13.75rem;}*/
+    .backimg{
+        height: 77vh;
+        background-size: 100% 150%;
+    }
+    .padding100{
+        padding: 1rem 0.625rem;
+    }
+    .footer{
+        padding:0.938rem 0.625rem 0.2rem 0.625rem;
+    }
+    .font36{
+        font-size: 1.313rem;
+        line-height: 1.5rem;
+    }
+    .img-2{
+        height: 1.563rem;
+        width: 1.563rem;
+    }
+    .card-title{
+        margin: 0rem;
+    }
+    .mt2-5{
+        margin-top: 1rem;
+    }
+    .font16{
+        font-size:0.875rem;
+        font-weight: 450;
+        line-height: 1.25rem;
+    }
+    .img-3{
+        height: 12.188rem;
+        width: 18.438rem;
+    }
+    .img-4{
+        height: 10.938rem;
+        width: 17.5rem;
+    }
+    .mt0-5{
+        margin-top: 0.2rem;
+    }
+    .img-5{
+        height: 11.563rem;
+        width: 17.5rem;
+    }
+    .purchase{
+        margin-top: 0.5rem;
+        font-weight: 450;
+        padding: 0.04rem 1.4rem;
+        line-height: 1.375rem;
+    }
+    .backpurple{
+        padding:1.75rem 0.625rem 1.375rem 0.625rem;
+        clip-path: polygon(50% 5%, 75% 4%, 100% 2%, 100% 100%, 80% 100%, 50% 100%, 17% 100%, 0% 100%, 0 2%, 25% 4%);
+    }
+    .mt1-5{
+        margin-top:0.4rem;
+    }
+    .mrtop2-5,.img-5,.img-4,.img-3,.img-1{
+        margin-top: 1rem;
+    }
+    .purchasebtn{
+        padding: 0.01rem 2rem; 
+        margin-top: 0.2rem;
+        line-height: 1.375rem;
+    }
+    .footer-purchase{
+        padding: 0.1rem 0.7rem;
+    }
+    hr{
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    .footer-navlink{
+        padding-right: 0.938rem;
+    }
+    .icons{
+        margin-left: 0.556rem;
+    }
+}
+@media screen and (min-width:48rem) and (max-width:62rem) {
+    .buynow{
+        width: 8.125rem;
+    }
+    .euro-buttons{
+        margin-top: 1.5rem;
+        width: 8.688rem;
+    }
+    .font50{
+        font-size: 2.188rem;
+        line-height: 2.813rem;
+    }
+    .mt2-5,.img-1,.img-3,.mt1-5{
+        margin-top: 1rem;
+    }
+    .img-1{
+        height: 21.875rem;
+        width: 21.875rem;
+    }
+    .backimg{
+        height: 80vh;
+    }
+    .padding100{
+        padding:3.125rem 0.625rem;
+    }
+    .footer{
+        padding:1.875rem 0.625rem 0.625rem 0.625rem ;
+    }
+    .font36{
+        font-size:1.75rem;
+        line-height: 2.125rem;
+    }
+    .img-2{
+        height: 1.875rem;
+        width: 1.875rem;
+    }
+    .card-title{
+        margin: 0.1rem 0rem;
+    }
+    .img-3{
+        height: 17.5rem;
+        width: 23.75rem;
+    }
+    .img-4{
+        height: 13.438rem;
+        width:20.625rem;
+    }
+    .img-5{
+        height: 14.375rem;
+        width: 21.25rem;
+    }
+    .purchase,.mrtop2-5{
+        margin-top: 1.5rem;
+    }
+    .backpurple{
+        padding:6.25rem 3.75rem 3.75rem 3.75rem;
+    }
+    hr{
+        margin: 1rem 0rem 0.5rem 0rem;
+    }
+    .footer-navlink{
+        padding-right: 1.875rem;
+    }
+    .icons{
+        margin-left: 0.938rem;
+    }
+}
+@media screen and (min-width:62rem) and (max-width:75rem) {
+    .eurosection{
+        padding:4.5rem 0rem 0rem 5.5rem;
+    }
+    .euro-buttons{
+        margin-top: 2rem;
+    }
+    .font50{
+        font-size: 2.625rem;
+        line-height: 3.375rem;
+    }
+    .img-1{
+        height: 34.375rem;
+        width:  65.625rem;
+    }
+    .backimg{
+        height: 120vh;
+    }
+    .padding100{
+        padding: 5rem 0rem;
+    }
+    .font36{
+        font-size: 2rem;
+        line-height: 2.625rem;
+    }
+    .img-3{
+        height: 20.313rem;
+        width: 29.375rem;
+    }
+    .img-4{
+        height: 17.813rem;
+        width: 26.25rem;
+    }
+    .img-5{
+        height: 16.875rem;
+        width: 24.375rem;
+    }
+    .purchase{
+        margin-top: 1.9rem;
+    }
+    .backpurple{
+        padding: 9.375em 6.25em 6.25rem 6.25rem;
+    }
+    .mrtop2-5{
+        margin-top: 2rem;
+    }
+    hr{
+        margin-top: 1.5rem;
+    }
+    .footer-navlink{
+        padding-right: 2.5rem;
+    }
+    .icons{
+        margin-left: 1.25rem;
+    }
+}
+@media screen and (min-width:75rem) and (max-width:87.5rem) {
+    .img-1{
+        height: 37.5rem;
+        width:  62.5rem;
+    }
+    .backimg{
+        height: 125vh;
+    }
+    .euro-buttons{
+        margin-top: 2.5rem;
+    }
+    .img-3{
+        height: 23.125rem;
+        width: 31.875rem;
+    }
+    .img-4{
+        height: 19.375rem;
+        width: 27.813rem;
+    }
+    .img-5{
+        height: 18.75rem;
+        width: 26.25rem;
+    }
+}
+@media screen and (min-width:75rem) and (max-width:92.063rem){
+    .marginl-r{
+        padding: 0rem 0.4rem;
+    }
+}
